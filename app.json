@@ -19,7 +19,13 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.shrijitmore.petdatingapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAmhqJwYQ-pB2_H-DRze5aQ92_7L-zqdD4"
+        }
+      }
     },
     "web": {
       "output": "static",
@@ -43,6 +49,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "202edd65-5c78-480c-bb82-cb436cdbe915"
+      }
     }
   }
 }
