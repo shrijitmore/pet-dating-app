@@ -1,18 +1,18 @@
 
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import PetProfileScreen from '../screens/pet-profile-screen';
-import SwipeAndMatchScreen from '../screens/swipe-and-match-screen';
-import LocationScreen from '../screens/location-screen';
-import InterestBasedMatchingScreen from '../screens/interest-based-matching-screen';
-import PetParentProfileScreen from '../screens/pet-parent-profile-screen';
-import ChatScreen from '../screens/chat-screen';
-import PetShopDirectoryScreen from '../screens/pet-shop-directory-screen';
-import ProductMarketplaceScreen from '../screens/product-marketplace-screen';
-import ReviewsAndRatingsScreen from '../screens/reviews-and-ratings-screen';
-import HospitalDirectoryScreen from '../screens/hospital-directory-screen';
-import SymptomCheckerAndFirstAidScreen from '../screens/symptom-checker-and-first-aid-screen';
-import AppointmentBookingScreen from '../screens/appointment-booking-screen';
+import PetProfileScreen from '../../app/screens/pet-profile-screen';
+import SwipeAndMatchScreen from '../../app/screens/swipe-and-match-screen';
+import LocationScreen from '../../app/screens/location-screen';
+import InterestBasedMatchingScreen from '../../app/screens/interest-based-matching-screen';
+import PetParentProfileScreen from '../../app/screens/pet-parent-profile-screen';
+import ChatScreen from '../../app/screens/chat-screen';
+import PetShopDirectoryScreen from '../../app/screens/pet-shop-directory-screen';
+import ProductMarketplaceScreen from '../../app/screens/product-marketplace-screen';
+import ReviewsAndRatingsScreen from '../../app/screens/reviews-and-ratings-screen';
+import HospitalDirectoryScreen from '../../app/screens/hospital-directory-screen';
+import SymptomCheckerAndFirstAidScreen from '../../app/screens/symptom-checker-and-first-aid-screen';
+import AppointmentBookingScreen from '../../app/screens/appointment-booking-screen';
 
 const Stack = createStackNavigator();
 
@@ -36,3 +36,4 @@ const AppNavigator = () => {
 };
 
 export default AppNavigator;
+
